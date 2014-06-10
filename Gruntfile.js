@@ -14,14 +14,15 @@ module.exports = function (grunt) {
               src: _sDirBase + 'js/fx.form.interactive.js',
               options: {
                 vendor : _sDirBase + 'tests/jasmine/helpers/stubs.js',
-                specs: _sDirBase + 'tests/jasmine/example.js'
+                specs: _sDirBase + 'tests/jasmine/example.js',
+                keepRunner : true
               }
             }
         }
 
 
     });
-    
+
     grunt.loadNpmTasks('grunt-contrib-jasmine');
 
 };
