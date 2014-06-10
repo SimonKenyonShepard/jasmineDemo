@@ -1,0 +1,20 @@
+{
+  "name": "Jasmine-demo",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonKenyonShepard/jasmineDemo.git"
+  },
+  "author": "Simon Kenyon Shepard",
+  "contributors": [
+    ""
+  ],
+  "devDependencies": {
+
+    "grunt-contrib-jasmine": "~0.6.1"
+  }
+}
